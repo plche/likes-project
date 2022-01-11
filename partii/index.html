@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+        <title>Likes</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <main class="main">
+            <nav class="nav">
+                <h1>Network</h1>
+            </nav>
+            <header class="header">
+                <h1>Your Feed</h1>
+            </header>
+            <div class="container">                
+                <div class="col-1">
+                    <div class="user-card">
+                        <img src="./assets/user.png" alt="User avatar" />
+                        <a href="#">Add an avatar</a>
+                        <h2>James Doe</h2>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="row">
+                            <h2>Neil M</h2>
+                            <p id="u1" class="likes-count">9 Like(s)</p>
+                            <button class="likes-btn u1" onmouseover="overOn(this)" onmouseout="overOff(this)" onclick="add1(this)">Like</button>
+                        </div>
+                        <div class="row">
+                            <p class="filter-text">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="row">
+                            <h2>Nichole K</h2>
+                            <p id="u2" class="likes-count">12 Like(s)</p>
+                            <button class="likes-btn u2" onmouseover="overOn(this)" onmouseout="overOff(this)" onclick="add1(this)">Like</button>
+                        </div>
+                        <div class="row">
+                            <p class="filter-text">Just finished my <a href="#">next comic</a>, check it out.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="row">
+                            <h2>Jim R</h2>
+                            <p id="u3" class="likes-count">9 Like(s)</p>
+                            <button class="likes-btn u3" onmouseover="overOn(this)" onmouseout="overOff(this)" onclick="add1(this)">Like</button>
+                        </div>
+                        <div class="row">
+                            <p class="filter-text">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
